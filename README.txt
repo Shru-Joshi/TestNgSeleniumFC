@@ -7,8 +7,7 @@ This is a automation test suite developed in Java using TestNg framework and Sel
 
 
 Steps to execute:
-Just Double-click the 'TestBuggyRating' executable jar file, to run the automation suite
-
+Run the InvokeLayer -> TestRunner class as a TestNg application
 
 Test Data:
 'Data.xlsx' file present in this folder can be updated with UserId, Password and NewPassword attribute values, according to which positive and negative login and change password scenarios will be run.
