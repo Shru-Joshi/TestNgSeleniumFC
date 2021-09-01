@@ -1,0 +1,22 @@
+Resource: https://buggy.justtestit.org
+
+·A short description of the test approach for this project
+BuggyRating application should be tested in-depth to validate
+1. Functionality - covering Popular Make, Model, Overall Rating of Cars, Car Specifications and Content Verification
+2. Usability - smooth navigation within the application covering all hyperlinks and images 
+3. Compatibility - validate OS and browser compatability, mobile browsing etc.
+4. Interface testing - validate interactions between web server and application server, interaction with database, error messages and error handling mechanism etc.
+5. Security - validate good and strong security measures covering login bypasses, invalid login etc. 
+6. Performance - Response time, latency, load testing, crash recovery etc.
+
+·Documented bug reports on 2-3 most critical bugs in the application
+1. Security Flaw - Functionalities of the application are exposed without logging in to the application.
+2. Security Flaw - If the user has logged in and then presses back button on home page or closes browser without logging off, then when the application is opened again the previous logged-in session reopens.
+3. Usability Flaw - Once you click on any Make in Overall Ratings page, the Buggy Rating home page link is broken. 
+
+·Identify the top 5 critical functionalities of BuggyCars to Automate
+1. Positive and Negative login scenarios
+2. Retrieve Popular Make
+3. Retrieve Popular Model
+4. Retrieve Overall Top Ranking
+5. Update Customer Profile to change the current password
